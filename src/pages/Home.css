@@ -1,0 +1,43 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.home-header{
+    display: flex;
+   justify-content: space-between;
+   padding: 20px 40px;
+   align-items: center;
+}
+.home-right{
+    display: flex;
+    align-items: center;
+}
+.home-right p {
+   margin-right: 20px;
+
+}
+.home-left{
+    display: flex;
+    align-items: center;
+}
+.home-left p {
+    margin-left: 20px;
+ 
+ }
+.page-body{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.page-body>img{
+    object-fit: contain;
+    height: 100px;
+    margin-top: 60px;
+}
+.search-page{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
